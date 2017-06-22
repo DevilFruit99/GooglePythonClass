@@ -1,0 +1,27 @@
+Introduction:
+  module: *.py
+  functions:
+    use 'def' keyword to define a function
+  docstring: first line(s) of a function sorrounded by triple quotes (""")
+  namespace:
+    name-to-object bindings. Ex. blinky.foo in blinky.py
+    import from namespace:
+      'from sys import argv,exit'
+    PSL          :  Python Standard Library
+    common PSLs  :  sys, re, os
+  builtins: reserved attributes and functions
+    help(sys)     :  command lists online documentation about sys namespace
+    dir([object]) :  lists  valid attributes for object
+
+Strings:
+  Python strings are immutable
+  string slices  :  s[-1:]
+  % operator  :
+    allows substitution of variables in string
+    %d    : number
+    %s    : sring
+    %f/%g : floating
+  convert to unicode: unicode(s,'utf-8')
+  convert to byte   : s.encode('utf-8')
+Questions:
+  what is a unicode string?
